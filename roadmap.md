@@ -1,0 +1,23 @@
+# Website updates
+- [x] Give major sections screen-height breathing room without clipping content or overlapping neighboring sections.
+- [x] Add distinct sourced workplace photographs with people, preserving honest stock-photo attribution.
+- [x] Contain calculator output and unify calculator/chat typography; verify populated results across screen sizes.
+- [x] Simplify the contact popup/form and reduce website text density with spacing and meaningful icons.
+- [x] Give visitor and assistant chat messages matching typography and acknowledge saved contact details.
+- [ ] Send thank-you emails to chat contacts; blocked by missing sending domain and workspace admin/owner email setup permission.
+- [x] Make blog publication dates prominent and verify full article reading from the journal and work page.
+- [x] Shared contact form: two-second popup and desktop exit intent (email draft delivery).
+- [x] Combine solutions and filterable use cases; preserve the old URL.
+- [x] Add project concepts, sample testimonials/reviews, and readable blogs.
+- [x] Replace individual team profiles with one illustrative group photograph.
+- [x] Verify popup timing, navigation, forms, and mobile layout.
+- [x] Simplify navigation and combine About with Team.
+- [x] Add subtle live background motion without gradients.
+- [x] Break up dark pages with solid blue sections and scroll-linked circuit effects.
+- [x] Verify the brighter sections and reduced-motion behavior on desktop and mobile.- [x] Vary dashboard charts across site (bar, pie, line mix)
+- [x] Use TRUWIX logo in contact popup
+- [x] CMS (blogs, services) + lead/visitor capture + /admin console
+- [x] Repair automatic publishing and target 15 researched automation/IoT articles daily with distinct covers and dates; first staged publication verified, hosted schedule requires publishing the update.
+- [x] Replace repeated project and journal photos with distinct sourced images.
+- [ ] Replace illustrative team photo when the official photo is supplied (no team upload received yet).
+- [x] Theme follows the device by default, with an explicit light/dark override

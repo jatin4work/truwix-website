@@ -1,0 +1,28 @@
+import { journalImages } from "@/lib/journal-images";
+
+export const projects = [
+  { slug: "connected-factory", title: "The connected factory", category: "Industrial IoT", image: journalImages.factory, description: "Machine signals, downtime events and production data brought together in one control room.", systems: "PLCs · MQTT · OEE dashboard", outcome: "A live view of every production line", scope: "Connect PLCs and edge gateways, standardise machine events, and make line status visible to operations teams. Start with one line before extending the same model across the plant." },
+  { slug: "founder-command-centre", title: "A founder’s command centre", category: "Business intelligence", image: journalImages.dashboard, description: "Revenue, cash flow and pipeline without the daily spreadsheet chase.", systems: "CRM · Tally · MIS dashboard", outcome: "One shared view of business performance", scope: "Bring finance and sales data into a common reporting model. Define ownership and refresh schedules, then build a dashboard around the decisions the founder actually makes." },
+  { slug: "order-to-invoice", title: "From order to invoice", category: "Workflow automation", image: journalImages.warehouse, description: "An order arrives. Your systems take care of the rest.", systems: "WhatsApp · ERP · Document AI", outcome: "Fewer manual handoffs across sales and finance", scope: "Capture orders, validate required fields, route exceptions for approval, and create the relevant records in the ERP. Keep an audit trail so teams can trace every automated action." },
+];
+
+export const articles = [
+  { slug: "where-to-start-with-automation", title: "Your first automation should be boring", category: "Workflow automation", minutes: "4 min read", publishedAt: "2026-11-10", image: journalImages.software, intro: "The best place to begin is not the most impressive demo. It is the repetitive task that quietly consumes time every day.", sections: [
+    ["Follow the handoffs", "Look for the moments when someone copies a record, checks an inbox, or asks another team for an update. List the source, destination, frequency and owner for each handoff. A clearly defined task is easier to automate safely than an entire department."],
+    ["Measure before you build", "Record the time spent, the number of exceptions and the cost of errors. These numbers give your pilot a baseline. Choose a workflow with consistent inputs and a clear output rather than a process that changes every week."],
+    ["Design the exception path", "Not every record should pass automatically. Missing information, duplicate orders and unusual amounts need a review queue. Good automation removes the routine work while making exceptions easier for people to handle."],
+    ["Pilot, then expand", "Run one workflow with its real owner. Compare the result with your baseline, monitor failures and document recovery steps. Expand only when the automation is reliable enough for the team to trust it."],
+  ] },
+  { slug: "connect-legacy-machines", title: "Connect the machines you already own", category: "Industrial IoT", minutes: "5 min read", publishedAt: "2026-11-10", image: journalImages.electronics, intro: "A connected factory does not have to start with replacing every machine. It starts with understanding the signals your equipment can provide.", sections: [
+    ["Inventory your signals", "Identify PLC models, available protocols and existing sensors. Separate data you can read directly from data that needs additional sensing. Start with a question such as where downtime happens, rather than collecting every possible signal."],
+    ["Use an edge gateway", "A gateway can translate machine protocols into a standard event format. Plan for buffering when connectivity drops, accurate timestamps and secure network separation between machinery and business systems."],
+    ["Agree on downtime definitions", "A dashboard is only useful when operators agree on what running, idle and stopped mean. Combine machine events with operator context so the numbers reflect what is happening on the floor."],
+    ["Prove it on one line", "Validate the readings against actual production. Check sensor placement, missing events and shift boundaries. Once the data is trustworthy, alerts and dashboards become much more useful."],
+  ] },
+  { slug: "founder-dashboard-metrics", title: "A founder dashboard is not a wall of charts", category: "Intelligence", minutes: "4 min read", publishedAt: "2026-11-10", image: journalImages.analytics, intro: "A useful dashboard answers the questions you need to act on. More charts rarely mean better decisions.", sections: [
+    ["Start with decisions", "Write down the recurring decisions: hiring, inventory, collections, production and sales priorities. Choose metrics that change those decisions rather than metrics that simply look impressive."],
+    ["Make freshness visible", "A cash balance updated daily and a sales pipeline updated hourly should not appear equally current. Show refresh times and surface missing data so people know what they can rely on."],
+    ["Create one definition per metric", "Revenue, booked orders and collected cash are different measures. Define the calculation, source and owner for each number. Resolve disagreements in the model, not in the board meeting."],
+    ["Turn exceptions into actions", "Use thresholds and trends to highlight what needs attention. Every alert should have an owner and a next step. A dashboard earns its place when it helps someone act, not merely observe."],
+  ] },
+];
